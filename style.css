@@ -1,0 +1,531 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(249,248,249);
+}
+.navbar{
+    padding: 1.6%;
+    position: sticky;
+    top:0%;
+    background-color: white;
+}
+
+.navbar a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Noto Sans KR',sans-serif;
+     font-size: 1.1rem;
+     margin-left:2%;
+}
+.navbar img{
+    vertical-align:middle;
+    margin-left: 3%;
+}
+#sign{
+    text-align: justify;
+    color: white;
+    margin-left:5% !important;
+    background-color: rgb(135,206,235);
+    font-size:0.9rem;
+    border-radius:25px;
+    padding: 1% 0.3%;
+}
+#sign i{
+    align:right;
+    background-color: rgb(0,0,139);
+    border-radius:50%;
+    padding:0.8% ;
+    margin-left:0.5%
+}
+#sign:hover{
+    background-color:rgb(0,0,139);
+}
+#sign:hover i{
+    background-color: rgb(135,206,235);
+}
+.wallet{
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(211,211,211);
+    font-family: 'Noto Sans KR',sans-serif;
+    padding:1.1%;
+}
+.section1{
+    display:flex;
+    justify-content: space-between;
+    padding-top:8%;
+    padding-bottom: 6%;
+    background-color: white;
+}
+.part1 p{
+ margin-top: 0%;
+ font-size: 1.1rem;
+ line-height: 1.4;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.part1 h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.part1{
+    margin-left: 5%;
+}
+.app{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    padding:3% 4.2% 3% 4.2%;
+    font-size: 1rem;
+}
+.app:hover{
+    background-color: white;
+    color:black;
+    border:solid;
+    border-width:1px;
+}
+.part1 img{
+    box-shadow:0 0 5px rgb(187,186,186);
+    border-radius: 25%;
+}
+.app i{
+    margin:1%;
+}
+.section2{
+    background-color: rgb(2,191,253);
+    color: white;
+    padding-left: 5.2%;
+    padding-top :2.5%;
+    padding-bottom: 3%;
+}
+.section2 h1{
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+.div1{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.div1 a{
+    text-decoration: none;
+    color: white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    align-items: center;
+}
+.div1 img{
+     border-radius: 50%;
+     background-color: white;
+     padding: 2%;
+
+}
+.div1 a:hover{
+    background-color: rgba(4,172,228,0.787);
+    border-radius:25px;
+}
+.section3{
+    margin-top: 0%;
+    background-color: #0f4a8a;
+    color:white;
+    padding-left: 5.2%;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+}
+.section3 h1{
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 7%;
+}
+.div2 a{
+    text-decoration: none;
+    color:white;
+    padding: 1%;
+    align-items: center;
+    text-align: left;
+}
+.div2 img{
+    border-radius: 50%;
+    background-color: white;
+    padding:3%;
+}
+.div2 a:hover{
+    background-color: #0d386a;
+    border-radius:25px;
+}
+.h1{
+    margin:7% 9% 2% 9%;
+    font-size: 3rem;
+}
+.app1{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    padding:3% 4.2% 3% 4.2%;
+    font-size: 1rem;
+}
+.section4{
+    display:flex;
+    justify-content:center;
+   background-color: white;
+   padding: 5% 2% 5%;
+   margin: 2% 9%;
+}
+.div3 h1{
+    padding-top: 2%;
+    font-size: 2.3rem;
+}
+.div3 p{
+    font-size: 1.2 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8%;
+    line-height: 1.4;
+   }
+.div3{
+    margin:5%;
+    
+}
+.section4{
+    margin-left: 5%;
+}
+.section5{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    padding: 5% 2%;
+    margin: 2% 6%;
+}
+.div4 h1{
+    padding-top: 3%;
+    font-size: 2.2rem;
+
+}
+.div4 p{
+    font-size: 1.2 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8%;
+    line-height: 1.4;
+}
+.div4{
+    margin:5%;
+}
+.section6{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:5% 2%  ;
+    margin:2% 6%;
+}
+.div5 h1{ 
+    padding-top: 3%;
+    font-size: 2.2rem;
+}
+.div5 p{
+    font-size: 1.2 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8%;
+    line-height: 1.4;
+}
+.learn{
+    text-decoration: none;
+    background-color: rgb(35, 35, 96);
+    border-radius: 25px;
+    color:white;
+    padding:2% 5%;
+}
+.learn:after{
+    content: "  >";
+}
+.learn:hover{
+    background-color: rgba(4,172,228,0.787);
+}
+.learn:hover::after{
+    content: "  ->"; 
+}
+.section7{
+    display:flex;
+    justify-content:space-between;
+}
+.div6{
+    background-color: white;
+    align-items: center;
+    padding:0% 2%  ;
+    margin:2% 2.8%;
+    border-radius: 25px;
+}
+.div7{
+    background-color: white;
+    align-items: center;
+    padding:5% 2%  ;
+    margin:2% 2.8%;
+    border-radius: 25px;
+}
+.div6 h1{
+    font-size: 2.5rem;
+}
+.div7 h1{
+    font-size: 2.5rem;
+}
+.div6 p{
+    font-size: 1.3rem;
+}
+.div7 p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.section8{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 5%;
+    background-color: white;
+}
+.div8 h1{
+    font-size: 3rem;
+}
+.div8 h2{
+    font-size: 2.5rem;
+}
+.div8{
+    font-size: 1.3rem;
+}
+
+.section9{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/gray-spike.avif");
+    padding: 5% 5% 8% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div9{
+    padding-left: 15%;
+    padding-right: 5%;
+}
+.div9 h1{
+    font-size: 2.8rem;
+}
+.div9 p{
+   font-size: 1.3rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.section10{
+    display: flex;
+    justify-content: center;
+     padding:5% 2%  ;
+     background-color: white;
+}
+.div10 h1{
+    font-size: 2.7rem;
+}
+.div10 p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
+
+.section11{
+    display: flex;
+    justify-content:center;
+    padding:5%;
+}
+.div11 h1{
+    font-size: 2.5rem;
+}
+.div11 p{
+    font-size: 1.3rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.div11{
+    padding: 4% 5% 2% 16%;
+}
+.section12{
+  margin-top: 0%;
+  background-color: white;
+}
+.div12{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249,248,249);
+    margin: 0% 9% 0% 9%;
+    padding:5% 0%;
+    border-radius: 20px;
+}
+.div13{
+    padding: 6% 8% 6% 10%;
+}
+.div13 h1{
+    font-size: 2.4rem;
+}
+.div13 p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div14{
+    padding: 3% 8% 2% 10%;
+
+}
+.div14 h1{
+    font-size: 2.4rem;
+}
+.div14 p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section13{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:5% 9%;
+}
+.section13 h1{
+    font-size: 1.7rem;
+}
+.section13 p{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section13 b{
+    font-size: 1rem;
+}
+.section14{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+.div16{
+    display: flex;
+    justify-content: space-between;
+}
+.div16 a{
+background-color: rgb(2,191,253);
+text-decoration: none;
+text-align: center;
+color: white;
+border-radius: 10px;
+padding: 0.6% 0.6% 1% 0.6%;
+margin-right: 3.5%;
+}
+
+.div16 a:hover{
+    background-color: rgb(51, 163, 201);
+}
+.div15{
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.div15 p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10%;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.lm{
+    text-decoration: none;
+    color: rgb(2,191,253);
+}
+.lm:hover{
+    color:rgb(1,1,110)
+}
+.section15{
+    display: flex;
+   
+    background-color: white;
+    padding-left: 4%;
+    padding-top: 4%;
+   
+}
+.div18{
+    display:flex;
+    justify-content: space-between;
+}
+.div18 a{
+    text-decoration: none;
+    background-color: rgb(75,210,255);
+    text-align:left;
+    color: white;
+    border-radius: 10px;
+    padding:30px 11px 11px;
+    margin-right: 3.5%;
+}
+.div18 a:hover{
+    background-color: rgb(2,191,253);
+}
+.div18 span{
+    margin-top: 2%;
+    font-size: 1.1rem;
+}
+.div18 p{
+    font-size: 0.8rem;
+}
+.div17 p{
+    font-size: 1.1rem;
+}
+.div17{
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.div182 h3{
+    padding-top:5%;
+    padding-left:6%;
+    padding-right:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .div182{
+    display:flex;
+  }
+  .div182 a{
+    padding-top:6%;
+    padding-right:1%;
+  }
+  .div182 div{
+    display:flex;
+    padding-top:6.5%;
+    padding-left:30%;
+    font-size:1.5rem;
+  
+  }
+  .div182 div a{
+    color:grey;
+    padding-left:70%;
+  }
+  .line{
+    padding:0% 40.1%;
+    border-width:1px;
+    border-color:rgba(0,0,0,0.4);
+    border-bottom-style:solid;
+    margin-left:1%;
+  }
+  .div19{
+    padding:6% 2% 10% 5%;
+  }
+  .l1{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(2, 191, 253);
+  }
+  .l2{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(1, 1, 110);
+  }
+
+    
+
+
+
+
